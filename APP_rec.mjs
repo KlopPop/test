@@ -22,7 +22,8 @@ const server = createServer((req, res) => {
     const res_delay = Date.now() - timeoutScheduled;
 
     res.end('Hello World!\n');
-    loglog(`${res_delay} ms processing request
+    loglog(`${res_delay} ms processing request`);
+  }, delay);
 });
 
 
