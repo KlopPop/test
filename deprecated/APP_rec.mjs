@@ -2,7 +2,7 @@ import { createServer } from 'node:http';
 import { appendFile } from 'node:fs/promises';
 import { format } from 'node:util';
 
-const hostname = '127.0.0.1';
+const hostname = '127.0.0.2';
 const port = 3000;
 const delay = 3000;
 
