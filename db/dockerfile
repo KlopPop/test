@@ -1,0 +1,8 @@
+FROM postgres:15.7
+
+WORKDIR /user
+
+COPY . .
+
+#RUN pwd && cd /user/migrations && chmod +x ./migrations.sh && bash ./migrations.sh
+
